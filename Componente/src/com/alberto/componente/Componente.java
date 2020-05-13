@@ -11,18 +11,14 @@ public class Componente extends VBox {
 
     private IntegerProperty segundos = new SimpleIntegerProperty(0);
 
-    //TextField textField = new TextField();
-
     public Componente() {
     }
 
     public Componente(double v) {
         super(v);
         TextField textField = new TextField();
-        ImageView imageView1 = new ImageView();
-        ImageView imageView2 = new ImageView();
-        ImageView imageView3 = new ImageView();
-        this.getChildren().addAll(textField, imageView1, imageView2, imageView3);
+        ImageView imageView = new ImageView();
+        this.getChildren().addAll(textField, imageView);
     }
 
     public Componente(Node... nodes) {
