@@ -9,9 +9,9 @@ public class Producto {
     private String nombre;
     private ArrayList<Image> listaImagenes;
 
-    Image imagen1 = new Image("img/cachopo1.jpg");
-    Image imagen2 = new Image("img/cachopo2.jpg");
-    Image imagen3 = new Image("img/cachopo3.jpg");
+    Image imagen1 = new Image("com/alberto/componente/img/cachopo1.jpg");
+    Image imagen2 = new Image("com/alberto/componente/img/cachopo2.jpg");
+    Image imagen3 = new Image("com/alberto/componente/img/cachopo3.jpg");
 
     public Producto(){
         this.nombre = "Cachopo";
